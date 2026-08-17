@@ -1,0 +1,21 @@
+# ---- Real config / holdings (NEVER commit your real data) ----
+config.json
+*.local.json
+holdings.csv
+events.json
+reports/
+
+# ---- Outlook persistent login profile (NEVER commit credentials) ----
+.edge_profile/
+edge_profile/
+profile/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- OS ----
+.DS_Store
+Thumbs.db

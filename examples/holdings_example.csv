@@ -1,0 +1,25 @@
+name,region,weight,latest,entry,target,compliance
+Example Semiconductor,A-share,8.0,~CNY900,CNY800,CNY1100+,✅
+Example Tech,HK,7.0,~HKD100,HKD90,HKD120+,✅
+Example Mobile,HK,5.3,~HKD78,HKD70,HKD85+,✅
+Example Beverage,HK,4.7,~HKD11,HKD9.5,HKD13+,✅
+Example Battery,A-share,4.4,~CNY240,CNY210,CNY300+,✅
+Example AI Server,Taiwan,4.2,~TWD200,TWD170,TWD280+,✅
+Example Optical,HK,3.9,~HKD52,HKD45,HKD65+,✅
+Example Foundry,Taiwan,3.7,~TWD985,TWD850,TWD1200+,✅
+Example Platform,HK,3.4,~HKD95,HKD85,HKD120+,✅
+Example Net,HK,3.0,~HKD135,HKD120,HKD165+,✅
+Example Equipment,A-share,2.9,~CNY350,CNY300,CNY450+,✅
+Example Insurance,HK,2.6,~HKD85,HKD75,HKD100+,✅
+Example Property,HK,2.5,~HKD25,HKD22,HKD35+,✅
+Example Mining,HK,2.4,~HKD18,HKD15,HKD24+,✅
+Example Glass,HK,2.3,~HKD52,HKD45,HKD65+,✅
+Example Optical Module,A-share,2.1,~CNY140,CNY120,CNY180+,✅
+Example Chip,A-share,2.0,~CNY75,CNY65,CNY100+,✅
+Example MCU,Taiwan,1.9,~TWD1450,TWD1300,TWD1700+,✅
+Example Test,Taiwan,1.7,~TWD125,TWD110,TWD155+,✅
+Example Networking,Taiwan,1.6,~TWD560,TWD500,TWD680+,✅
+Example Property B,HK,1.5,~HKD82,HKD75,HKD95+,✅
+Example Material,Taiwan,1.4,~TWD550,TWD500,TWD650+,✅
+Example Global Bank,Other,4.0,~USD7.80,--,--,❌ US
+Cash (HKD + USD),Cash,12.0,--,--,--,✅

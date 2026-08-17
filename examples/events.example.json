@@ -1,0 +1,46 @@
+{
+  "cover_stats": {
+    "total_emails": 61,
+    "deduped": 56,
+    "gc_relevant": 34,
+    "non_gc": 22,
+    "sources_line": "Daiwa Capital Markets / DBS / UOB Kay Hian / Mizuho / AlphaSense / <YOUR RESEARCH DESK>",
+    "coverage_date": "<YYYY-MM-DD of emails covered>"
+  },
+  "part1_sections": [
+    {
+      "subheading": "I. Rating & Target Price Changes (Holdings-Related)",
+      "events": [
+        {
+          "importance": "🔴",
+          "title": "EXAMPLE — Example Tech (HK): 1H results in line, ad acceleration offsets AI spend; three brokers maintain Buy",
+          "time_source": "YYYY-MM-DD | Broker A + Broker B + Broker C",
+          "key_data": "• 1H non-IFRS net profit +X% y/y to ...\n• Revenue +X% y/y; games +X%, ads +X% y/y\n• AI new-product loss widened to ...\n• Broker A Buy TP HKDxxx; Broker B Buy TP HKDxxx; Broker C Buy TP HKDxxx",
+          "analysis": "① What happened: ...\n② Key data: ...\n③ Why it matters: ...\n④ Portfolio impact: ✅ Held at X%. All three brokers maintain Buy; fundamentals intact. Monitor FCF pressure from capex."
+        }
+      ]
+    },
+    {
+      "subheading": "II. Sector / Macro",
+      "events": [
+        {
+          "importance": "🟡",
+          "title": "EXAMPLE — Macro: US CPI X.X% y/y (in line); rate-hike probability eases",
+          "time_source": "YYYY-MM-DD | Economics Desk",
+          "key_data": "• US CPI X.X% y/y (in line); core X.X%\n• MoM: headline X.X%, core X.X%\n• Implied hike probability fell from X% to Y%",
+          "analysis": "① What happened: ...\n② Key data: ...\n③ Why it matters: ...\n④ Portfolio impact: ✅ Easing hike fears support risk assets and EM flows."
+        }
+      ]
+    }
+  ],
+  "part2_summary": "Example investment summary — replace with your real bullets:\n\n1. ⚠️ Continue monitoring any non-eligible-region holdings; flag and propose replacement.\n2. 🔴 Maintain overweight on the AI hardware chain (multiple confirmations this week).\n3. 🟡 Core internet holding: results in line; watch capex-vs-return debate.\n4. ✅ Defensive staples resilience reaffirmed.\n5. 📌 New watchlist ideas: ...",
+  "part3_long_ideas": [
+    {
+      "name": "Example Foundry (TICKER TT)",
+      "subtitle": "Current ~TWD985 | Portfolio weight 3.7%",
+      "body": "Business Quality (★★★★★): ...\n\nValuation (★★★★☆): ...\n\nOperating Momentum (★★★★★): ...\n\nEntry zone: TWD850-900 | Target exit: TWD1200+"
+    }
+  ],
+  "part4_note": "Based on latest available holdings as of <DATE>. Replace examples/holdings_example.csv with your real file (do NOT commit the real file — see .gitignore).",
+  "part5_link_status": "nolinks fetch — report_links_crawled: false. Full research summaries are contained in email bodies, so analysis quality is unaffected. For full reports, download via your broker research portal / Bloomberg / LSEG."
+}

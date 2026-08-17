@@ -1,0 +1,51 @@
+{
+  "report": {
+    "title": "GLOBAL EQUITY OPPORTUNITIES REPORT",
+    "subtitle": "UCITS Portfolio Allocation",
+    "fund_name": "<YOUR FUND NAME>",
+    "manager": "<YOUR FIRM NAME>",
+    "report_date": "<YYYY-MM-DD>",
+    "language": "en",
+    "font_latin": "Calibri",
+    "font_eastasia": "Microsoft YaHei",
+    "deep_blue_hex": "003D6B",
+    "medium_blue_hex": "005B8E",
+    "light_blue_hex": "D6E8F7",
+    "confidential_note": "CONFIDENTIAL — For Internal Use Only"
+  },
+  "labels": {
+    "key_data": "Key Data",
+    "analysis": "Analysis",
+    "time_source": "Time / Source",
+    "part1": "Part 1   Major Market Events",
+    "part2": "Part 2   Investment Ideas Summary",
+    "part3": "Part 3   Long Ideas",
+    "part4": "Part 4   Portfolio Allocation",
+    "part5": "Part 5   Link Status",
+    "importance_red": "🔴",
+    "importance_yellow": "🟡",
+    "importance_blue": "📌"
+  },
+  "sources": {
+    "summary": "Fetched via scripts/fetch_emails.py (nolinks). Broker notes: Daiwa / DBS / UOBKH / Mizuho / etc. (replace with your own).",
+    "holdings_csv": "examples/holdings_example.csv"
+  },
+  "ucits": {
+    "greater_china_only": true,
+    "single_name_cap_pct": 10.0,
+    "rule_5_40": true,
+    "a_share_cap_pct": 30.0,
+    "taiwan_cap_pct": 40.0,
+    "cash_cap_pct": 20.0,
+    "stock_count_min": 23,
+    "stock_count_max": 27,
+    "flagged_names": ["Example Global Bank"],
+    "flagged_note": "Names domiciled outside the eligible region must be flagged and replaced."
+  },
+  "paths": {
+    "output_docx": "examples/sample_report.docx",
+    "events_json": "examples/events.example.json",
+    "holdings_csv": "examples/holdings_example.csv",
+    "coverage_date": "<YYYY-MM-DD of emails covered>"
+  }
+}
