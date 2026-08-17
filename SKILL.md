@@ -51,10 +51,21 @@ Copy `config.example.json` → `config.json` and fill in:
 - `ucits.*` thresholds for your mandate
 - `paths.*` (or keep defaults — resolved relative to the config file)
 
-### 3. Provide daily content
-- `events.json` — the day's analysis (Part 1 events, summary, long ideas, link status).
-  Start from `examples/events.example.json`.
-- `holdings.csv` — your current positions (columns: `name,region,weight,latest,entry,target,compliance`).
+### 3. Synthesize daily content (the AGENT does this step)
+After fetching (step 1), read `reports/emails_<date>.json` — the raw emails you just pulled.
+As the agent, you must SYNTHESIZE `events.json` yourself, following the schema in
+`examples/events.example.json`:
+- `cover_stats` — source count / total fetched / deduped / GC-relevant / non-GC numbers
+- `part1_sections` — major market events; each has `importance`, `title`, `time_source`,
+  `key_data`, `analysis`
+- `part2_summary` — investment ideas summary
+- `part3_long_ideas` — long ideas
+- `part4_note` — portfolio-table note
+- `part5_link_status` — link-crawl status (usually "not crawled")
+The skill ships NO opinions — only the structure. If you are handed only the raw emails
+and told "make the report", producing this `events.json` from them IS your job.
+Also prepare `holdings.csv` — current positions (columns:
+`name,region,weight,latest,entry,target,compliance`).
 
 ### 4. Generate
 ```bash
@@ -88,3 +99,5 @@ cash caps, and flagged-name detection. See `references/ucits_compliance.md`.
 - The fetcher is headless=False (needs a visible browser for the saved session). Run it
   on a machine where you can log in once.
 - All analysis text lives in `events.json` — the skill ships no opinions, only structure.
+  The agent synthesizes `events.json` from the fetched raw emails (`reports/emails_*.json`);
+  the skill does not generate analysis content on its own.
